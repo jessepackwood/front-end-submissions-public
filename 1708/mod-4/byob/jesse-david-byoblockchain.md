@@ -64,56 +64,104 @@ DJR - JWT is still fuzzy for me.
 
 
 BYOBlockchain is running on 3000. env: test
+
   Client Routes
+  
     ✓ should return the homepage (38ms)
+    
     ✓ should return a 404 if the page is not found
 
   API Routes
+  
     GET api/v1/wallets
+    
 Seeding complete!
+
       ✓ should return all the wallets
+      
     GET api/v1/wallets/:id
+    
 Seeding complete!
+
       ✓ should return a single wallet
+      
 Seeding complete!
+
       ✓ should return 404 if a single wallet is not found
+      
     POST api/v1/wallets
+    
 Seeding complete!
+
       ✓ should post a wallet
+      
 Seeding complete!
+
       ✓ should return a 422 when a required param is missing
+      
     DELETE api/v1/wallets
+    
 Seeding complete!
+
       ✓ should delete a wallet
+      
 Seeding complete!
+
       ✓ should return a 404 if a wallet to delete is not found
+      
     DELETE api/v1/transactions
+    
 Seeding complete!
+
       ✓ should delete a transaction
+      
 Seeding complete!
+
       ✓ should return a 404 if a transaction to delete is not found
+      
     GET api/v1/transactions
+    
 Seeding complete!
+
       ✓ should return all transactions
+      
     GET api/v1/transactions/:id
+    
 Seeding complete!
+
       ✓ should return one transaction
+      
 Seeding complete!
+
       ✓ should return 404 if a single transaction is not found
+      
     POST api/v1/transactions
+    
 Seeding complete!
+
       ✓ should post a transaction
+      
 Seeding complete!
+
       ✓ should return a 422 when a required param is missing
+      
     PATCH api/v1/transactions/:id
+    
 Seeding complete!
+
       ✓ should edit one transaction amount
 Seeding complete!
+
       ✓ should return a 404 if the transaction is not found
+      
     PATCH api/v1/wallets/:id
+    
 Seeding complete!
+
       ✓ should edit one wallet balance
+      
 Seeding complete!
+
       ✓ should return a 404 if the wallet is not found
 
 
